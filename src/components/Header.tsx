@@ -24,23 +24,25 @@ export const Header = () => {
         <div className="w-8 h-8"></div>
       </div>
       
-      {/* Wavy bottom border */}
+      {/* More wavy bottom border */}
       <div className="absolute bottom-0 left-0 w-full">
         <svg
-          className="w-full h-4 md:h-6"
-          viewBox="0 0 1200 24"
+          className="w-full h-6 md:h-8"
+          viewBox="0 0 1200 32"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           preserveAspectRatio="none"
         >
           <path
-            d="M0 12C100 4 200 20 300 12C400 4 500 20 600 12C700 4 800 20 900 12C1000 4 1100 20 1200 12V24H0V12Z"
+            d="M0 16C60 4 120 28 180 16C240 4 300 28 360 16C420 4 480 28 540 16C600 4 660 28 720 16C780 4 840 28 900 16C960 4 1020 28 1080 16C1140 4 1200 28 1200 16V32H0V16Z"
             fill="url(#wave-gradient)"
           />
           <defs>
             <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" stopColor="#FF7443" />
-              <stop offset="50%" stopColor="#FF8535" />
+              <stop offset="25%" stopColor="#FF8035" />
+              <stop offset="50%" stopColor="#FF8C29" />
+              <stop offset="75%" stopColor="#FF9430" />
               <stop offset="100%" stopColor="#FF9827" />
             </linearGradient>
           </defs>
