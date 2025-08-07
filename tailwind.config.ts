@@ -61,7 +61,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				'spark-orange': 'hsl(var(--spark-orange))',
+				'spark-yellow': 'hsl(var(--spark-yellow))',
+				'spark-dark': 'hsl(var(--spark-dark))',
+				'header-bg': 'hsl(var(--header-bg))'
+			},
+			fontFamily: {
+				'unisans': ['Uni Sans Heavy', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

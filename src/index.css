@@ -36,6 +36,12 @@ All colors MUST be HSL.
     --input: 220 20% 88%;
     --ring: 240 100% 60%;
 
+    /* SparkStudios brand colors */
+    --spark-orange: 20 100% 62%;
+    --spark-yellow: 37 100% 57%;
+    --spark-dark: 0 0% 5%;
+    --header-bg: 0 0% 5%;
+    
     /* Portfolio gallery specific tokens */
     --gallery-shadow: 220 20% 15%;
     --gallery-hover: 240 100% 60%;
