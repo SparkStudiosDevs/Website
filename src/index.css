@@ -40,6 +40,7 @@ All colors MUST be HSL.
     --spark-orange: 20 100% 62%;
     --spark-yellow: 37 100% 57%;
     --spark-dark: 0 0% 5%;
+    --spark-dark-light: 0 0% 12%;
     --header-bg: 0 0% 5%;
     
     /* Portfolio gallery specific tokens */

@@ -65,6 +65,7 @@ export default {
 				'spark-orange': 'hsl(var(--spark-orange))',
 				'spark-yellow': 'hsl(var(--spark-yellow))',
 				'spark-dark': 'hsl(var(--spark-dark))',
+				'spark-dark-light': 'hsl(var(--spark-dark-light))',
 				'header-bg': 'hsl(var(--header-bg))'
 			},
 			fontFamily: {

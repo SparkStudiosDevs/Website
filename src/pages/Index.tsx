@@ -1,5 +1,7 @@
 import { PortfolioCarousel } from "@/components/PortfolioCarousel";
 import { Header } from "@/components/Header";
+import { ServicesGrid } from "@/components/ServicesGrid";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -17,16 +19,20 @@ const Index = () => {
           </p>
         </div>
         
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-16">
           <PortfolioCarousel />
         </div>
         
-        <div className="text-center mt-16">
+        <div className="text-center mb-16">
           <p className="text-sm text-white/70 drop-shadow-sm">
             Use the arrows or swipe to explore the collection
           </p>
         </div>
+        
+        <ServicesGrid />
       </main>
+      
+      <Footer />
     </div>
   );
 };

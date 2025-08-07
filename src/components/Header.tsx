@@ -3,7 +3,7 @@ import sparkLogo from "@/assets/spark-logo.png";
 export const Header = () => {
   return (
     <header className="relative w-full bg-header-bg overflow-hidden">
-      <div className="relative z-10 flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+      <div className="relative z-10 flex items-center justify-between px-6 py-8 max-w-7xl mx-auto">
         {/* Logo */}
         <div className="flex items-center">
           <img 
