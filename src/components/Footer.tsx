@@ -72,7 +72,7 @@ export const Footer = () => {
             <ul className="space-y-2">
               <li className="text-white/70">sparkstudios.devs@gmail.com</li>
               {/* <li className="text-white/70">+1 (555) 123-4567</li> */}
-              <li className="text-white/70">replies spontaneously</li>
+              <li className="text-white/70">Replies Spontaneously</li>
             </ul>
           </div>
         </div>
