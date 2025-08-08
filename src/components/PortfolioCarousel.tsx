@@ -139,7 +139,7 @@ export const PortfolioCarousel = () => {
                 }
               }}
             >
-              <div className="relative bg-white p-3 shadow-xl rounded-lg drop-shadow-lg">
+              <div className="relative bg-white p-3 shadow-xl  drop-shadow-lg">
                 <img
                   src={image.src || "/placeholder.svg"}
                   alt={image.title}
