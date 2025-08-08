@@ -16,11 +16,8 @@ export const Footer = () => {
           />
           <defs>
             <linearGradient id="footer-wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" stopColor="#FF7443" />
-              <stop offset="25%" stopColor="#FF8035" />
-              <stop offset="50%" stopColor="#FF8C29" />
-              <stop offset="75%" stopColor="#FF9430" />
-              <stop offset="100%" stopColor="#FF9827" />
+              <stop offset="0%" stopColor="#ff8638" />
+              <stop offset="100%" stopColor="#ff8638" />
             </linearGradient>
           </defs>
         </svg>
@@ -57,10 +54,15 @@ export const Footer = () => {
           <div>
             <h4 className="text-white font-semibold text-lg mb-4">Services</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-white/70 hover:text-spark-orange transition-colors duration-300">Web Development</a></li>
-              <li><a href="#" className="text-white/70 hover:text-spark-orange transition-colors duration-300">Custom Solutions</a></li>
-              <li><a href="#" className="text-white/70 hover:text-spark-orange transition-colors duration-300">MC Models</a></li>
-              <li><a href="#" className="text-white/70 hover:text-spark-orange transition-colors duration-300">Digital Content</a></li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Minecraft Models</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Minecraft Graphics</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Minecraft Setup Specialists</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Discord Bots (BDFD)</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Discord Server Setups</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Web Developers</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Graphic Artists</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Video Editors</li>
+              <li className="text-white/70 hover:text-spark-orange transition-colors duration-300">Photo Editors</li>
             </ul>
           </div>
           
@@ -68,9 +70,9 @@ export const Footer = () => {
           <div>
             <h4 className="text-white font-semibold text-lg mb-4">Contact</h4>
             <ul className="space-y-2">
-              <li className="text-white/70">hello@sparkstudios.com</li>
-              <li className="text-white/70">+1 (555) 123-4567</li>
-              <li className="text-white/70">Available 24/7</li>
+              <li className="text-white/70">sparkstudios.devs@gmail.com</li>
+              {/* <li className="text-white/70">+1 (555) 123-4567</li> */}
+              <li className="text-white/70">replies spontaneously</li>
             </ul>
           </div>
         </div>
@@ -82,5 +84,6 @@ export const Footer = () => {
         </div>
       </div>
     </footer>
+
   );
 };

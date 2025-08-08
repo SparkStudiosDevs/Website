@@ -71,7 +71,7 @@ export const PortfolioCarousel = () => {
           <Button
             variant="outline"
             size="icon"
-            className="absolute -left-12 top-1/2 -translate-y-1/2 h-10 w-10 rounded-full bg-card/90 backdrop-blur-sm border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 shadow-md"
+            className="absolute -left-12 top-1/2 -translate-y-1/2 h-10 w-10 rounded-full bg-card/90 backdrop-blur-sm border-border hover:bg-[#ff8638] hover:text-primary-foreground hover:border-[#bd6b34] transition-all duration-300 shadow-md"
             onClick={() => api?.scrollPrev()}
           >
             <FontAwesomeIcon icon={faChevronLeft} className="h-4 w-4" />
@@ -80,7 +80,7 @@ export const PortfolioCarousel = () => {
           <Button
             variant="outline"
             size="icon"
-            className="absolute -right-12 top-1/2 -translate-y-1/2 h-10 w-10 rounded-full bg-card/90 backdrop-blur-sm border-border hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all duration-300 shadow-md"
+            className="absolute -right-12 top-1/2 -translate-y-1/2 h-10 w-10 rounded-full bg-card/90 backdrop-blur-sm border-border hover:bg-[#ff8638] hover:text-primary-foreground hover:border-[#bd6b34] transition-all duration-300 shadow-md"
             onClick={() => api?.scrollNext()}
           >
             <FontAwesomeIcon icon={faChevronRight} className="h-4 w-4" />
@@ -94,7 +94,7 @@ export const PortfolioCarousel = () => {
             key={index}
             className={`h-1 rounded-full transition-all duration-300 ${
               index === currentIndex
-                ? "w-8 bg-primary"
+                ? "w-8 bg-[#ffffff] "
                 : "w-2 bg-muted-foreground"
             }`}
           />

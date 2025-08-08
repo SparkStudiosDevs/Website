@@ -4,7 +4,7 @@ const services = [
   {
     icon: MessageCircle,
     name: "Discord",
-    description: "Join our community server",
+    description: "Join our community",
     link: "#"
   },
   {
@@ -16,37 +16,37 @@ const services = [
   {
     icon: Instagram,
     name: "Instagram",
-    description: "Follow our visual journey",
+    description: "Visual proof of our craft",
     link: "#"
   },
   {
     icon: Github,
     name: "GitHub",
-    description: "Check out our projects",
+    description: "Start exploring our repos",
     link: "#"
   },
   {
     icon: Code,
-    name: "BuiltByBiy",
-    description: "Custom development solutions",
+    name: "BuiltByBit",
+    description: "View our products",
     link: "#"
   },
   {
     icon: Gamepad2,
     name: "MCModels",
-    description: "Minecraft model creations",
+    description: "Discover more",
     link: "#"
   },
   {
     icon: HelpCircle,
     name: "Coming Soon",
-    description: "Exciting new service",
+    description: "Something great",
     link: "#"
   },
   {
     icon: HelpCircle,
     name: "Coming Soon",
-    description: "Another great feature",
+    description: "Something even greater",
     link: "#"
   }
 ];
@@ -56,7 +56,7 @@ export const ServicesGrid = () => {
     <section className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-white text-center mb-12 drop-shadow-lg">
-          Our Services
+          Links
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
