@@ -5,49 +5,49 @@ const services = [
     icon: MessageCircle,
     name: "Discord",
     description: "Join our community",
-    link: "#"
+    link: "https://discord.gg/xcVpkR9myc"
   },
   {
     icon: Youtube,
     name: "YouTube",
     description: "Watch our latest content",
-    link: "#"
+    link: "https://youtube.com/@sparkstudiosdev?si=JZzPMBa1lWkW2EKD"
   },
   {
     icon: Instagram,
     name: "Instagram",
     description: "Visual proof of our craft",
-    link: "#"
+    link: "https://www.instagram.com/sparkstudios.dev?igsh=YmRzZGpqM2RmaWty"
   },
   {
     icon: Github,
     name: "GitHub",
     description: "Start exploring our repos",
-    link: "#"
+    link: "https://github.com/SparkStudiosDevs"
   },
   {
     icon: Gamepad2,
     name: "BuiltByBit",
     description: "View our products",
-    link: "#"
+    link: "https://builtbybit.com/members/sparkstudio.621155/"
   },
   {
     icon: Gamepad2,
     name: "MCModels",
-    description: "Discover more",
+    description: "Discover more (Coming Soon)",
     link: "#"
   },
   {
     icon: HelpCircle,
     name: "Coming Soon",
     description: "Something great",
-    link: "#"
+    link: "https://discord.gg/xcVpkR9myc"
   },
   {
     icon: HelpCircle,
     name: "Coming Soon",
     description: "Something even greater",
-    link: "#"
+    link: "https://discord.gg/xcVpkR9myc"
   }
 ];
 
