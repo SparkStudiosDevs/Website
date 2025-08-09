@@ -26,13 +26,13 @@ const services = [
     link: "https://github.com/SparkStudiosDevs"
   },
   {
-    icon: Gamepad2,
+    icon: package,
     name: "BuiltByBit",
     description: "View our products",
     link: "https://builtbybit.com/members/sparkstudio.621155/"
   },
   {
-    icon: Gamepad2,
+    icon: anvil,
     name: "MCModels",
     description: "Discover more (Coming Soon)",
     link: "#"
