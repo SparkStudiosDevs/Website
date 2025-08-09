@@ -26,7 +26,7 @@ const services = [
     link: "#"
   },
   {
-    icon: fa-solid fa-box-open,
+    icon: Box,
     name: "BuiltByBit",
     description: "View our products",
     link: "#"
