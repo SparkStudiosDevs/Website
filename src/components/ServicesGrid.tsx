@@ -26,7 +26,7 @@ const services = [
     link: "#"
   },
   {
-    icon: Box,
+    icon: Gamepad2,
     name: "BuiltByBit",
     description: "View our products",
     link: "#"
