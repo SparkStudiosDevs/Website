@@ -12,13 +12,10 @@ import img4 from '@/assets/img4.jpg'
 
 // Using placeholder images - replace with your actual portfolio images
 const portfolioImages = [
-  { src: img4,},
-  { src: img3,},
-  { src: img2,},
-  { src: img1,},
-  { src: img5,},
-  { src: img6,},
-  { src: img7,},
+  { src: img4, title: "New" },
+  { src: img3, title: "New" },
+  { src: img2, title: "New" },
+  { src: img1, title: "New" },
   { src: "/placeholder.svg?height=400&width=600", title: "Elegant Dining" },
   // { src: "/placeholder.svg?height=400&width=600", title: "Home Office" },
   // { src: "/placeholder.svg?height=400&width=600", title: "Stylish Balcony" },
@@ -67,14 +64,14 @@ export const PortfolioCarousel = () => {
       return {
         transform: `translateX(${position * 35}%) scale(0.85)`,
         zIndex: 8,
-        opacity: 0.9,
+        opacity: 1,
       };
     } else if (absPosition === 2) {
       // Outer images - brought much closer
       return {
         transform: `translateX(${position * 50}%) scale(0.7)`,
         zIndex: 6,
-        opacity: 0,
+        opacity: 0.9,
       };
     } else {
       // Hidden images - fade in from behind center
