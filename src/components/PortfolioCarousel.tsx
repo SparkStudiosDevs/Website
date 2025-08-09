@@ -12,10 +12,11 @@ import img4 from '@/assets/img4.jpg'
 
 // Using placeholder images - replace with your actual portfolio images
 const portfolioImages = [
-  { src: img4, title: "New" },
-  { src: img3, title: "New" },
-  { src: img2, title: "New" },
-  { src: img1, title: "New" },
+  { src: img5, title: "" },
+  { src: img4, title: "" },
+  { src: img3, title: "" },
+  { src: img2, title: "" },
+  { src: img1, title: "" },
   { src: "/placeholder.svg?height=400&width=600", title: "Elegant Dining" },
   // { src: "/placeholder.svg?height=400&width=600", title: "Home Office" },
   // { src: "/placeholder.svg?height=400&width=600", title: "Stylish Balcony" },
