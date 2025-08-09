@@ -9,15 +9,15 @@ import img1 from '@/assets/img1.jpg'
 import img2 from '@/assets/img2.jpg'
 import img3 from '@/assets/img3.jpg'
 import img4 from '@/assets/img4.jpg'
+import img5 from '@/assets/img5.jpg'
 
 // Using placeholder images - replace with your actual portfolio images
 const portfolioImages = [
-  { src: img5, title: "n" ,
-  { src: img4, title: "n" },
-  { src: img3, title: "n" },
-  { src: img2, title: "n" },
-  { src: img1, title: "n" },
-  { src: "/placeholder.svg?height=400&width=600", title: "Elegant Dining" },
+  { src: img5, title: "" },
+  { src: img4, title: "" },
+  { src: img3, title: "" },
+  { src: img2, title: "" },
+  { src: img1, title: "" }
   // { src: "/placeholder.svg?height=400&width=600", title: "Home Office" },
   // { src: "/placeholder.svg?height=400&width=600", title: "Stylish Balcony" },
   // { src: "/placeholder.svg?height=400&width=600", title: "Modern Entryway" },
